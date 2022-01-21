@@ -17,7 +17,7 @@
 <body>
     <!-- header start  -->
     <header class="navigation py-2">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-body bg-white">
             <div class="container">
                 <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -31,13 +31,16 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link" href="#">Shop</a>
+                            <a class="nav-link" href="#Shops">Shop</a>
                         </li>
                         <li class="nav-item  ">
-                            <a class="nav-link" href="#">News</a>
+                            <a class="nav-link" href="#Question">Questions</a>
                         </li>
                         <li class="nav-item  ">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link" href="#Subscribe">Contact</a>
+                        </li>
+                        <li class="nav-item  ">
+                            <a class="nav-link" href="#Clients">Review</a>
                         </li>
                         <button class="btn background-gradient text-white rounded px-3 mx-3" width="10">Submit <i
                                 class="fas fa-sign-in-alt"></i></button>
@@ -97,7 +100,7 @@
         </section>
         <!-- categerioes -->
 
-        <section class="container my-5">
+        <section class="container my-5" id="Shops">
             <h2 class="d-flex align-item-center justify-content-center">Latest Collection Of 2022</h2>
             <br>
             <div class="row g-3">
@@ -119,7 +122,8 @@
                 </div>
             </div>
         </section>
-        <section class="container">
+        <!-- Happy Clients says section  -->
+        <section class="container" id="Clients">
             <h2 class="d-flex align-item-center justify-content-center">Happy Clients Says</h2>
             <br>
             <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -202,7 +206,8 @@
                     </div>
                 </div>
         </section>
-        <section class="container my-5">
+        <!-- Frequently Asked Questions section  -->
+        <section class="container my-5" id="Question">
             <h2 class="d-flex align-items-center justify-content-center ">Frequently Asked Questions</h2>
             <div class="row p-5 rounded bg-gradient d-flex justify-content-center align-items-center">
                 <div class="col-lg-6 col-md-6 col-12">
@@ -278,8 +283,64 @@
                         </div>
                     </div>
         </section>
+        <!-- Frequently Asked Questions ended  -->
+        <!-- Subscribe part -->
+        <section style="height: 550px;"
+            class="container bg-info d-flex justify-content-center align-item-center rounded-3" id="Subscribe">
+            <div>
+                <h1 class="d-flex justify-content-center align-item-center ">LET'S STAY IN TOUCH</h1>
+                <p class="d-flex justify-content-center align-item-center ">Get updates on sales, special and more</p>
+                <form class="row g-3 ">
+                    <div class="col-md-6">
+                        <label for="inputEmail4" class="form-label">Email</label>
+                        <input type="email" placeholder="Your Email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPassword4" class="form-label">Password</label>
+                        <input type="password" placeholder="Your Password" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress" class="form-label">Address</label>
+                        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                        <label for="inputAddress2" class="form-label">Address 2</label>
+                        <input type="text" class="form-control" id="inputAddress2"
+                            placeholder="Apartment, studio, or floor">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputCity" class="form-label">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="inputState" class="form-label">State</label>
+                        <select id="inputState" class="form-select">
+                            <option selected>Bangladesh</option>
+                            <option>India</option>
+                            <option>Usa</option>
+                            <option>Japan</option>
+                        </select>
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputZip" class="form-label">Zip</label>
+                        <input type="text" class="form-control" id="inputZip">
+                    </div>
+                    <div class="col-12">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                                SELECT
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button type="submit" class="btn btn-primary">Sign in</button>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
-    <footer>
+    <footer class="mt-5 text-center">
 
     </footer>
     <!-- Bootstrap Script  -->
