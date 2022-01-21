@@ -16,3 +16,17 @@ font-family: 'Poppins', sans-serif;
 .gray-scale img {
     filter: grayscale(100%);
   }
+.info-background{
+   background-image: linear-gradient(#fceae8, #4879ff);
+}
+.fa-star.filled{
+    color: gold;
+}
+.fa-star.empty{
+    color: honeydew;
+}
+.tag a{
+   text-decoration: none;
+   color: rgb(62, 12, 95);
+   font-weight: bold;
+}
